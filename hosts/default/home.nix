@@ -5,6 +5,7 @@
     ../../modules/home-manager/features/gnome.nix
     ../../modules/home-manager/bundles/gaming.nix
     ../../modules/home-manager/bundles/general.nix
+    ../../modules/home-manager/bundles/code.nix
   ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.

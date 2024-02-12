@@ -7,5 +7,6 @@
         wget
         spotify
         lm_sensors
+        onlyoffice-bin
     ];    
 }
