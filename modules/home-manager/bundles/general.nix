@@ -8,5 +8,6 @@
         spotify
         lm_sensors
         onlyoffice-bin
+        qbittorrent
     ];    
 }
