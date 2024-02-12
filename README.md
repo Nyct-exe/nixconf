@@ -1,0 +1,2 @@
+# nixconf
+Experimenting with nixos
