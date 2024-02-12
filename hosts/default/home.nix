@@ -18,6 +18,8 @@
   gnome.enable = true;
   # Gaming Module
   gaming.enable = true;
+  #Coding Module
+  code.enable = true;
 
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
