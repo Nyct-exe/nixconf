@@ -49,6 +49,10 @@ in {
         "org/gnome/desktop/wm/preferences" = {
             button-layout = ":minimize,maximize,close";
         };
+        "org/gnome/settings-daemon/plugins/power" = {
+            power-button-action = "interactive";
+        };
+
         # EXTENTIONS
         # Dash To Panel Preffered Settings
         "org/gnome/shell/extensions/dash-to-panel" = {
