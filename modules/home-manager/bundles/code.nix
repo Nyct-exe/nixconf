@@ -11,13 +11,10 @@ in {
   };
 
   config = lib.mkIf cfg.enable {
-    #Android dev stuff
-    programs.adb.enable = true;
-    users.users.lukas.extraGroups = ["adbusers"];
 
     home.packages = with pkgs; [
-        onlyoffice-bin
-
+        android-studio
+        jetbrains-toolbox
     ];
   };
 

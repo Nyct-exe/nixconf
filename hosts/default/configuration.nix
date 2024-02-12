@@ -76,12 +76,11 @@
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
-
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.lukas = {
     isNormalUser = true;
     description = "lukas";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "adbusers" ];
     shell = pkgs.zsh;
     packages = with pkgs; [
       firefox
@@ -109,6 +108,8 @@
   # Enabling Programs
   programs.zsh.enable = true;
   services.flatpak.enable = true;
+  #Android dev stuff
+  programs.adb.enable = true;
 
   # Steam
     programs.java.enable = true; 
